@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>The Rick and Morty API</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="Rick and Morty" />
+            </div>
+            <div class="nav-menu">
+                <p><a href="#">Docs</a></p>
+                <p><a href="#">About</a></p>
+                <button class="support-btn">SUPPORT US</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <h1>The Rick and Morty API</h1>
+    </section>
+
+    <div class="chracters__section">
+        <div>
+            <form class="search">
+                <input type="text" class="search__field" placeholder="Search for a chracter name...." />
+                <button class="btn search__btn">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <span>Search</span>
+                </button>
+            </form>
+        </div>
+
+        <div class="error">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <p class="message">Your Request can't be found</p>
+        </div>
+
+
+        <div class="chracters--list">
+            <div class="block">
+
+            </div>
+
+            <div class="chracters--list">
+                <div class="search__section">
+
+                </div>
+            </div>
+
+            <div class="pagination">
+
+            </div>
+            <!--
+                    <div class="chracter">
+                    <div>
+                        <img src="img/30.jpeg" alt="">
+                    </div>
+                    <div class="chracter__info">
+                        <h2>Baby Poopybutthole</h2>
+                        <div class="check-status">
+                            <b>.</b>
+                            <h4>Alive - Poopybutthole</h4>
+                        </div>
+                        <span>Last known location:</span>
+                        <p class="location">unknown</p>
+                        <span>First seen in:</span>
+                        <p>The Rickchurian Mortydate</p>
+                        <p style="margin-top:.6em;">
+                            <a href='#'>The Rickchurian Mortydate</a>
+                        </p>
+                    </div>
+                </div>
+-->
+            <!-- <div class="search__chracter">
+                <div>
+                    <img src="./img/30.jpeg" alt="">
+                </div>
+
+                <div class="chracter__info">
+                    <h2 style="margin-bottom: .3em;">Baby Poopybutthole</h2>
+                    <span>status:</span>
+                    <div class="check-status">
+                        <b class="status-type">.</b>
+                        <h4 style="margin-bottom: .4em;">Alive - Poopybutthole</h4>
+                    </div>
+                    <span>Species:</span>
+                    <br>
+                    <p style="margin-top: .5em; margin-bottom: .5em;">The Rickchurian Mortydate</p>
+                    <span>Type:</span>
+                    <p style="margin-top:.5em;">The Rickchurian Mortydate</p>
+                </div>
+            </div> -->
+        </div>
+
+        <footer class="footer-section">
+            <div class="api-details">
+                <p>
+                    <a href="https://rickandmortyapi.com/api/character" target="_blank">CHARACTERS: 826</a
+            >
+          </p>
+          <p>
+            <a href="https://rickandmortyapi.com/api/location" target="_blank"
+              >LOCATIONS: 126</a
+            >
+          </p>
+          <p>
+            <a href="https://rickandmortyapi.com/api/episode">EPISODES: 51</a>
+                </p>
+            </div>
+            <br />
+            <br />
+            <div class="server-status">
+                <p>
+                    <a href="https://status.rickandmortyapi.com/" target="_blank">SERVER STATUS</a
+            >
+          </p>
+        </div>
+        <br />
+        <br />
+        <div class="author">
+          <p>
+            <> by
+            <a> Ogunneye Oyinkansola </a> - 2022
+                </p>
+            </div>
+        </footer>
+        </section>
+
+        <!--modal popup-->
+        <div>
+            <div class="modal hidden">
+                <button class="close-modal">&times;</button>
+                <h1>Support The Rick and Morty API 😍</h1>
+                <p class="main">
+                    Help to maintain The Rick and Morty API's infrastructure!
+                </p>
+                <p>
+                    If you are using the API for your app, your online tutorials or your coding challenges, please consider supporting us to help keep the project alive.
+                </p>
+                <p>
+                    We are not getting any money from this and we use our free time to keep the API running and the data up to date. Every contribution, however big or small, is super valuable for our future
+                </p>
+                <p>Thanks!</p>
+                <button class="buy-coffee">Buy me coffee</button>
+            </div>
+        </div>
+        <div class="overlay hidden"></div>
+        <!--modal popup ends-->
+</body>
+
+</html>
